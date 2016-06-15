@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LinkCrawler_Example' do
+  pod 'LinkCrawler', :path => '../'
+
+  target 'LinkCrawler_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
