@@ -1,0 +1,6 @@
+framework module LinkCrawler {
+  umbrella header "LinkCrawler-umbrella.h"
+
+  export *
+  module * { export * }
+}

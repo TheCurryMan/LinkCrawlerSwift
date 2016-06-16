@@ -1,0 +1,16 @@
+PODS:
+  - LinkCrawler (0.1.0)
+
+DEPENDENCIES:
+  - LinkCrawler (from `../`)
+
+EXTERNAL SOURCES:
+  LinkCrawler:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LinkCrawler: 2b64075ee2f1a9b703d5a87eee9e4b2c3860745b
+
+PODFILE CHECKSUM: bceaef99f620bd926aac5bf6273234ca2ad80dfb
+
+COCOAPODS: 1.0.1

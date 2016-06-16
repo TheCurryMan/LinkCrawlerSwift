@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'LinkCrawler'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of LinkCrawler.'
+  s.summary          = 'Get the metdata of any URL efficiently and easily.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,15 +17,14 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = "A fantastic tool to get the metadata of any url. Gathers the ImageURL, Title, and Description from articles of major news sites."
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/LinkCrawler'
+
+  s.homepage         = 'https://github.com/TheCurryMan/LinkCrawlerSwift'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Avinash Jain' => 'avinashkalpitjain@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/LinkCrawler.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/<TheCurryMan>/LinkCrawlerSwift.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
